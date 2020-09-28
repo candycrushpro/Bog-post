@@ -12,9 +12,9 @@ class CommentForm(FlaskForm):
     description= TextAreaField('comment', validators=[Required()])
     submit = SubmitField('Submit')
 
-class SubscribeForm(FlaskForm):
-    email = StringField('Your Email Address',validators=[Required(),Email()])
-    submit = SubmitField('Submit')
+# class SubscribeForm(FlaskForm):
+    # email = StringField('Your Email Address',validators=[Required(),Email()])
+    # submit = SubmitField('Submit')
     
     # def validate_email(self,data_field):
     #         if Subscribe.query.filter_by(email =data_field.data).first():
