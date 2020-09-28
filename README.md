@@ -13,3 +13,7 @@
 * Postgres Database
 * HTML
 * CSS
+
+## License MIT License
+
+* Copyright (c) 2020 Dan Bradley Otieno
