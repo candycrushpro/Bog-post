@@ -17,7 +17,7 @@ class Config:
     SENDER_EMAIL = "bnilmar54@gmail.com"
 
 class ProdConfig(Config):
-    pass
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 
 class DevConfig(Config):
